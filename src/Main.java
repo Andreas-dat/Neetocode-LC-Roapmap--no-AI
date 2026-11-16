@@ -2,15 +2,13 @@ import ArraysAndHashing.*;
 
 void main() {
 
-    TopKFrequent q = new TopKFrequent();
+    ProductOfArrayExecptSelf p = new ProductOfArrayExecptSelf();
 
-    int[] nums = {1,1,1,1,5,5,5,7,7,7,7,7,7,7,7,7};
-    int k = 2;
+    int[] nums = new int[]{-1, 1, 0, -3, 3};
+    int[] real = p.productOfArrayExepctSelf(nums);
 
-   int[] test = q.topKFrequent(nums,k);
-
-   for(int t: test) {
-       System.out.println(t);
+   for(int m: real) {
+       System.out.println(m);
    }
 
 
