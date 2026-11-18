@@ -1,15 +1,11 @@
 import ArraysAndHashing.*;
 
 void main() {
+    LongestConsecutiveSequence l = new LongestConsecutiveSequence();
 
-    ProductOfArrayExecptSelf p = new ProductOfArrayExecptSelf();
+    int[] nums = {0,3,7,2,5,8,4,6,0,1};
 
-    int[] nums = new int[]{-1, 1, 0, -3, 3};
-    int[] real = p.productOfArrayExepctSelf(nums);
-
-   for(int m: real) {
-       System.out.println(m);
-   }
+    System.out.println(l.longestConsecutiveSequence(nums));
 
 
 }
