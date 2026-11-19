@@ -1,11 +1,14 @@
 import ArraysAndHashing.*;
+import Stack.*;
 
 void main() {
-    LongestConsecutiveSequence l = new LongestConsecutiveSequence();
+   ValidParentheses v = new ValidParentheses();
 
-    int[] nums = {0,3,7,2,5,8,4,6,0,1};
+   String s = "()";
 
-    System.out.println(l.longestConsecutiveSequence(nums));
+    System.out.println(v.isValidParenthese(s));
+
+
 
 
 }
